@@ -53,8 +53,8 @@ import shutil
 # these as needed.
 
 PAGES = ["cfp", "index", "committee", "invited", "program"]
-IMAGES = [os.path.join("images", "logo", "LAW19_Logo.png"), os.path.join("images", "ELRA_logo.png"), os.path.join("images", "lilja.jpg")]
-STYLESHEETS = [os.path.join("css", "law2025.css")]
+IMAGES = [os.path.join("images", "logo", "CPSS_Logo.png"), os.path.join("images", "ELRA_logo.png")]
+STYLESHEETS = [os.path.join("css", "CPSS-2025.css")]
 
 
 def include_file(infile, include_file, outfile):
