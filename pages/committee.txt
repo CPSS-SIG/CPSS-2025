@@ -1,0 +1,53 @@
+Program Chairs
+=================
+Manfred Stede (University of Potsdam)
+Sophie Henning (Bosch Center for Artificial Intelligence and LMU Munich)
+
+
+Organizing Committee
+=================
+Amir Zeldes (Georgetown University)
+Ines Rehbein (Mannheim University)
+
+
+Program Committee
+================
+Omri Abend (Hebrew University of Jerusalem)
+Berfin Aktas (University of Potsdam)
+Claire Bonial (DEVCOM US Army Research Lab)
+Miriam Butt (University of Konstanz)
+Marie Candito (LLF (Université Paris Cité / CNRS))
+Kathryn Conger (University of Colorado Boulder)
+Daniel Dakota (Indiana University)
+Stefanie Dipper (Ruhr University Bochum)
+Lucia Donatelli (Vrije Universiteit)
+Jonathan Dunn (University of Illinois)
+Markus Egg (Humboldt-Universität zu Berlin)
+Annemarie Friedrich (University of Augsburg)
+Luke Gessler (University of Colorado Boulder)
+Nizar Habash (New York University Abu Dhabi)
+Andrea Horbach (FernUni Hagen)
+Nancy Ide (Vassar College and Brandeis University)
+René Knaebel (University of Potsdam)
+Sandra Kuebler (Indiana University)
+Ekaterina Lapshinova-Koltunski (University of Hildesheim)
+Els Lefever (LT3, Ghent University)
+Adam Meyers (New York University)
+Alexis Palmer (University of Colorado Boulder)
+Antonio Pareja-Lora (Universidad de Alcalá (UAH))
+Siyao Peng (Ludwig Maximilian University of Munich)
+Miriam R. L. Petruck (International Computer Science Institute)
+Massimo Poesio (Queen Mary University and University of Utrecht)
+Jakob Prange (University of Augsburg)
+Robin Schaefer (University of Potsdam)
+Nathan Schneider (Georgetown University)
+Ludovic Tanguy (Université de Toulouse 2)
+Joel Tetreault (Dataminr, Inc.)
+Lilian Diana Awuor Wanzare (Maseno University)
+Michael Wiegand (University of Klagenfurt)
+Mohammad Yeghaneh Abkenar (University of Potsdam)
+Amir Zeldes (Georgetown University)
+Winnie Huiheng Zeng (Hong Kong Shue Yan University)
+Deniz Zeyrek (Middle East Technical University)
+Wei Zhou (Bosch Center for Artificial Intelligence and University of Augsburg)
+Heike Zinsmeister (Universität Hamburg)
