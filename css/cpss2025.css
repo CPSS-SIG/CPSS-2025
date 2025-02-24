@@ -2,11 +2,13 @@
 body {
     background-color: #fff;
     margin: 0;
+    line-height: 16px; 
 }
 
 body, p {
-    xfont-family: Roboto, Helvetica, Arial, sans-serif; /* screws up on non-asci letters */
-    font-family: Roboto, Helvetica, Arial;
+    xfont-family: Noto Sans, Helvetica, Arial, sans-serif; /* screws up on non-asci letters */
+    font-family: Noto Sans, Helvetica, Arial;
+    line-height: 16px; 
 }
 
 table, th, td, img {
@@ -26,32 +28,37 @@ table, th, td, img {
 
 #header {
     /* background: linear-gradient(#0096FF, #ADD8E6); */  
-    background: linear-gradient(#780404, #e26e3a);
+    #background: linear-gradient(#780404, #e26e3a);
+    background-image: url("logo_cpss.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 25%;
+    background-color: #cccccc;
     border-bottom: 2px solid #ddd;
     color: #fff;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-top: 24px;
+    padding-bottom: 6px;
 }
 
 #header .title {
     min-width: 1000px;  /* needed to avoid nasty overlapping lines */
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-size: 42px;
+    font-family: Noto Sans, Helvetica, Arial, sans-serif;
+    font-size: 40px;
     font-weight: bold;
     padding-left: 40px;
     padding-bottom: 5px;
 }
 
 #header .body {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-family: Noto Sans, Helvetica, Arial, sans-serif;
     font-size: 22px;
     padding-left: 40px;
     padding-bottom: 0px;
 }
 
 #subheader {
-    background-color: #73976c;  /* 6aa15f; */
+    background-color: #456a8f;  /* 6aa15f; */
     border-bottom: 5px solid #e6e6e6;
     color: #fff;
     height: 30px;
@@ -79,7 +86,7 @@ table, th, td, img {
 }
 
 #navigation li {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-family: Noto Sans, Helvetica, Arial, sans-serif;
     float: left;
     padding-right: 30px;
     text-align: center;
@@ -104,6 +111,7 @@ table, th, td, img {
     max-width: 880px;
     margin-left: 50px;
     padding: 25px 20px 10px 10px;
+    line-height: 16px; 
 }
 
 h1, h2, h3, h4 {
@@ -118,7 +126,7 @@ h1 {
 
 h2 {
     font-size: 18px;
-    font-weight: normal;
+    font-weight: bold;
     margin: 0 0 18px;
 }
 
@@ -144,8 +152,8 @@ body table {
 
 p {
     color: #111111;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 25px;
     margin: 0 0 20px;
 }
 
@@ -171,18 +179,18 @@ table.dates {
 table.dates td {
     padding: 7px;
     border: 1px solid #006699;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 table.committee a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 li {
     color: #111111;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .left { text-align: left; }
@@ -222,7 +230,7 @@ li {
 .sidebar td {
     padding: 5px;
     border: 1px solid #006699;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .sidebar p {
@@ -239,8 +247,15 @@ li {
 .container {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
+
+.container_left {
+    display: flex;
+    align-items: left;
+    justify-content: left; 
+}
+
 img {
     /*max-width: 100%*/
 }
@@ -250,6 +265,7 @@ img {
 .text {
     font-size: 20px;
     padding-left: 20px;
+    line-height: 14px;
 }
 
 /*------------------------------ FOOTER ------------------------------*/
@@ -260,7 +276,7 @@ body {
 }
 
 #footer {
-    background: #73976c; /*768b72;*/
+    background: #637e99; /*768b72;*/
     border-top: 2px solid #ECF87F;
     padding: 6px 0 0;
     position: absolute;
