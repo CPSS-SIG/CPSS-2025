@@ -53,7 +53,7 @@ import shutil
 # these as needed.
 
 PAGES = ["cfp", "index", "committee", "invited", "program"]
-IMAGES = [os.path.join("images", "logo_cpss.jpg"), os.path.join("images", "logo_gesis_en.svg")]
+IMAGES = [os.path.join("images", "logo_cpss.png"), os.path.join("images", "logo_gesis_en.svg")]
 STYLESHEETS = [os.path.join("css", "cpss2025.css")]
 TEMPLATES = [os.path.join("templates", "CPSS-2025-abstract-template.zip")]
 
