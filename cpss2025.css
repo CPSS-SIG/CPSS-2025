@@ -210,6 +210,11 @@ li {
     color: #39646d;
 }
 
+hl {
+    color: rgb(101,29,35);
+    font-weight: bold;
+}
+
 .sidebar {
     width: 400px;
     padding-top: 25px;
