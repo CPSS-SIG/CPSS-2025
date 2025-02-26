@@ -5,20 +5,22 @@ This is the `main` branch; it contains sources for building the website.
 The [website](https://sigann.github.io/LAW-XIXI-2025) itself lives on the `gh-pages` branch.
 
 
+### THIS ONLY NEEDS TO BE DONE WHEN CREATING A NEW REPOSITORY
+### FOR THE NEXT WORKSHOP
 ### create gh-pages branch:
-
+#
 git symbolic-ref HEAD refs/heads/gh-pages
 rm .git/index
 git clean -fdx
 echo "My GitHub Page" > index.html
 git add .
 git commit -a -m "First pages commit"
-
+#
 # first time: git push --set-upstream origin gh-pages
-
 git push origin gh-pages
 
 
+### THIS IS THE WORKFLOW FOR CHANGING THE EXISTING WEBSITE
 To deploy changes:
 
     $ git checkout main
