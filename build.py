@@ -110,5 +110,5 @@ if __name__ == "__main__":
     for template in TEMPLATES:
         target = os.path.join(site, os.path.basename(template))
         print(os.path.abspath(target))
-        shutil.copyfile(image, target)
+        shutil.copyfile(template, target)
 
