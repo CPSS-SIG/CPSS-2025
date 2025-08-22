@@ -3,15 +3,13 @@
 import csv
 
 global sessions
-sessions = {"Long Papers 1": [13, 22, 43],
-           "Short Papers 1": [6, 7],
-           "Long Papers 2": [10, 19, 26],
-           "In-Person Poster Session": [8, 23, 25, 38, 42, 47],
-           "Short Papers 2": [18, 24],
-           "Long Papers 3": [21, 29, 41],
-           "Short Talk": [15]
+sessions = {"Oral presentations 1": [4, 12, 22, 23],
+           "Oral presentations 2": [3, 5, 13], 
+           "In-Person Poster Session": [8, 14, 17, 19, 21, 25],
+           "Oral presentations 3": [10, 18],  
            }
-assert sum(map(len, sessions.values())) == 20
+assert sum(map(len, sessions.values())) == 15
+
 
 
 global info
@@ -34,8 +32,9 @@ def add_session_info(new_program_html):
         new_program_html += "<br/>\n\n<h2>" + session + "</h2>\n"
         if len(sessions[session]) == 0:
             new_program_html += "<i>Info on papers will be added soon.</i><br/><br/>\n\n"
-
+        print(info)
         for paper_no in sessions[session]:
+            print(paper_no)
             title = info[paper_no][0]
             authors = info[paper_no][1]
             new_program_html += title + "<br/>\n"
